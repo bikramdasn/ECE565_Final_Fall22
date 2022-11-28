@@ -9,3 +9,14 @@ This project represents a petri net model to avoid race conditions including a s
 When two processor or computer try to work parallelly they create a race condition. In print spooler directory file name can be overlapped. Two computers or processes trying to access the same shared memory location at the same time enters a critical region. Also, in a situation where file name can be overlapped like the print spooler directory, one processor or computer will never get a result, this leads to a deadlock condition. 
 
 ![alt text](https://github.com/bikramdasn/ECE565_Final_Fall22/blob/main/Images/Critical%20region%20and%20Deadlock.png)
+
+## SPN model
+Stochastic petri net is used to model our system. Petri net is a bipartite graph with two subset Place and Transitions. Places holds the token which represent the job available in the system. Transition fire the tokens from one place to another place when it enable to fire. 
+
+![alt text](https://github.com/bikramdasn/ECE565_Final_Fall22/blob/main/Images/spn%20model.png)
+
+### Deadlock 
+![alt text](https://github.com/bikramdasn/ECE565_Final_Fall22/blob/main/Images/Deadlock.png)
+### Deadlock Free System 
+![alt text](https://github.com/bikramdasn/ECE565_Final_Fall22/blob/main/Images/Deadlock%20Free.png)
+

@@ -20,3 +20,5 @@ Stochastic petri net is used to model our system. Petri net is a bipartite graph
 ### Deadlock Free System 
 ![alt text](https://github.com/bikramdasn/ECE565_Final_Fall22/blob/main/Images/Deadlock%20Free.png)
 
+## Video Explantion
+[![Watch the video](https://cdn.pixabay.com/photo/2013/07/13/11/45/play-158609_960_720.png)](https://drive.google.com/file/d/1TQXTuBhMQ37LNe1RFKKyyj6Cs3ZPRzBl/view)
